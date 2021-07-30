@@ -20,6 +20,7 @@ export const Counter = ({maxCount, resetValue,stepValue}: TypePropsType) => {
     const doReset = () => {
         setCount(resetValue)
     };
+    // do set for our count
 
     const islimitedCount = count === maxCount;
 
