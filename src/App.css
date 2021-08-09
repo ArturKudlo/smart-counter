@@ -64,4 +64,11 @@
   color: #61dafb;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
+}
+.set__value input {
+  background-color: transparent;
+  border: 1px solid #61dafb;
+  border-radius: 7px;
+  color: white;
 }

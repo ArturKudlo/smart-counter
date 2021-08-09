@@ -52,7 +52,6 @@ export const Counter = ({ maxCount, resetValue, stepValue }: TypePropsType) => {
       <Result count={count} limited={islimitedCount} />
       <div className="main__content--buttons">
         <Button
-
           text="inc"
           inActive={islimitedCount}
           handleClick={handleIncrement}
