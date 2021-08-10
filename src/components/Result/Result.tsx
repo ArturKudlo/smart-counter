@@ -8,7 +8,7 @@ type PropsTypeCount = {
 export const Result = ({count, limited}: PropsTypeCount) => {
     return (
         <div className='main__content--counter'>
-            <span className={limited ? 'limited': ''}>{count}</span>
+            <span className={limited ? 'limited': ''}> {count} </span>
         </div>
     )
 }
