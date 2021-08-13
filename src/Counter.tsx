@@ -59,5 +59,6 @@ export const Counter = ({ maxCount, resetValue, stepValue }: TypePropsType) => {
         <Button text="reset" inActive={isResetValue} handleClick={doReset} />
       </div>
     </div>
+
   );
 };
