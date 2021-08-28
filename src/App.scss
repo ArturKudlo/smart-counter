@@ -1,3 +1,5 @@
+$color-red: green;
+
 .App {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,7 +36,7 @@
 }
 .main__content--counter .limited {
   font-size: 40px;
-  color: red;
+  color: $color-red;
 }
 .main__content--counter span {
   color: #61dafb;
@@ -55,20 +57,4 @@
 }
 .btn[disabled] {
   opacity: .5;
-}
-.error {
-  color: red;
-}
-
-.set__value {
-  color: #61dafb;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-.set__value input {
-  background-color: transparent;
-  border: 1px solid #61dafb;
-  border-radius: 7px;
-  color: white;
 }

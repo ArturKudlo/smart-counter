@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
+import "./App.scss";
 import { Button } from "./components/Button/Button";
 import { Result } from "./components/Result/Result";
 
@@ -59,6 +59,6 @@ export const Counter = ({ maxCount, resetValue, stepValue }: TypePropsType) => {
         <Button text="reset" inActive={isResetValue} handleClick={doReset} />
       </div>
     </div>
-
   );
 };
+
